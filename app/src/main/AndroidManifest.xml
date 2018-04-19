@@ -12,13 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Result_activity"></activity>
+        <activity android:name=".Result_activity" />
+        <activity android:name=".QR_CODE_ACTIVITY">
+
+        </activity>
+        <activity
+            android:name=".barcode.BarcodeCaptureActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>
